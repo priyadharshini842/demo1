@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.main1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: blue;
+    gap: 5px;
+    
+
+}
+div{
+    background-color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+#one{
+grid-column: 1/3;
+}
+#two{
+ grid-row:span 2;
+}
+#five{
+grid-column: span 3;
+}
